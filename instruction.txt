@@ -1,0 +1,19 @@
+Pulling the Heroku App
+
+install virtualenv
+install Heroku Toolbelt
+
+Open a new directory in terminal (Unix based systems):
+Call it WaitTimeApp
+run: ‘virtualenv env’
+run: ‘source env/bin/activate’
+run: ‘heroic login’
+	enter the Heroku credentials
+
+run: ‘heroku git:clone -a waittimeapp’
+run: ‘cd waittimeapp’
+run: ‘pip install django-toolbelt’
+run: ‘pip install djangorestframework’
+
+Now you should be all set up: To run the server locally:
+run: python manage.py runserver
