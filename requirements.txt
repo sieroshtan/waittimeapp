@@ -3,7 +3,7 @@ dj-static==0.0.6
 Django==1.8.6
 django-tokenapi==0.2.3
 django-toolbelt==0.0.1
-djangorestframework==3.3.1
+djangorestframework==3.9.1
 gunicorn==19.4.1
 httpie==0.9.2
 psycopg2==2.6.1
